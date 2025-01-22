@@ -37,3 +37,6 @@ def testing_llm():
 
 # testing_llm()
 
+print(ner.search_entities_json("zudan"))
+
+
