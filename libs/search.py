@@ -1,4 +1,5 @@
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup # type: ignore
+import re
 
 
 # Function to remove tags

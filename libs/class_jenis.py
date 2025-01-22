@@ -1,9 +1,9 @@
-import pandas as pd
-import joblib
-from sklearn.feature_extraction.text import CountVectorizer
-from sklearn.model_selection import train_test_split
-from sklearn.neural_network import MLPClassifier
-from sklearn.metrics import classification_report
+import pandas as pd # type: ignore
+import joblib # type: ignore
+from sklearn.feature_extraction.text import CountVectorizer # type: ignore
+from sklearn.model_selection import train_test_split # type: ignore
+from sklearn.neural_network import MLPClassifier # type: ignore
+from sklearn.metrics import classification_report # type: ignore
 import json
 from libs import helpers
 
